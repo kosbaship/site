@@ -1,0 +1,278 @@
+*{font-family:montserrat,sans-serif}
+/* start framework */
+.second-color{color:#FF5722;}
+.icon-color{color:#191919;}
+.color{color:#B2DFDB;}
+img{width:30%}
+div[disabled]
+{
+  pointer-events: none;
+  opacity: 0.7;
+}
+.logo-section{
+    text-align: start;
+    width:80%;
+    margin:0 auto 32px;
+}
+.hr-top{
+    transform: rotate(121deg);
+    position: relative;
+    top: 158px;
+    background-color:red;
+    border:1px solid red
+}
+.hr-bottom{
+    transform: rotate(57deg);
+    position: relative;
+    bottom: 145px;
+    background-color:red;
+    border:1px solid red
+}
+body{
+    color:#fff;
+    background-color:#191919;
+    margin:0;
+    padding:0;
+}
+a{text-decoration:none}
+/* end framework */
+/* start profile content */
+.profile-content{
+    display:flex;
+    height:350px;
+    align-items:flex-end;
+    justify-content:center;
+    padding:0 25px
+}
+article{
+    max-width:600px;
+    width:100%;
+}
+figure{
+    position:relative;
+    height:185px;
+    margin:0;
+    background-color:#008080;
+    box-shadow:0 0 55px 20px rgba(0,0,0,.4);
+    border-radius:10px;
+    padding-left:220px
+}
+figcaption{display:inline-block}
+figcaption h4{
+    text-align: center;
+}
+figcaption h4 span{
+    color:#191919;
+    font-size:20px
+}
+
+.my-pic{
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    width: 241px;
+    vertical-align: bottom;
+}
+.my-name{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0 5px;
+    font-family: modak;
+    letter-spacing: 2px;
+}
+.job-title{
+    text-align:center;
+    font-size:16px;
+    font-weight:300;
+    margin-top:0;
+    color:#B2DFDB;
+    letter-spacing: 2px;
+    font-family:Source Sans Pro ExtraLight
+}
+.social-links{
+    max-width:260px;
+    list-style:none;
+    display:block;
+    margin:25px auto 0;
+    padding:0;
+    display:flex;
+    justify-content:space-between
+}
+.social-links img{
+    max-width:20px;
+    height:14px
+}
+.codewars-badge{
+    display:block;
+    text-align:center;
+    margin-top:5px
+}
+/* end profile content */
+/* start card */
+
+.flutter-section{
+    margin: 0 auto 16px;
+}
+.flutter-section .h2 span{
+    color:#FF5722
+}
+.div2{
+    display:inline-block;
+    width:100%;
+}
+.h2{
+    margin:40px 0 24px 0;
+    text-align: center;
+}
+
+.card{
+    width:20%;
+    display:inline-block;
+    text-align:center;
+    margin-right:2%;
+    margin-left:2%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card h3{
+    margin-top:15px;
+    margin-bottom:15px;
+    color:#FF5722;
+}
+
+.card .card-header span{
+    color:red;
+    font-size:20px;
+
+}
+.myButton {
+    width:55%;
+	box-shadow:inset 0px 0px 15px 3px #008080;
+	background:linear-gradient(to bottom, #008080 5%, #008080 100%);
+	background-color:#008080;
+	border-radius:17px;
+	border:1px solid #008080;
+	display:inline-block;
+	cursor:pointer;
+	color:#B2DFDB;
+    font-family:Source Sans Pro ExtraLight;
+	font-size:20px;
+	padding:6px 15px 6px 15px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #008080;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #D8B381 10%, #D8B381 100%);
+    background-color:#D8B381;
+    text-shadow:0px 1px 0px #D8B381;
+    border:1px solid #D8B381;
+    color:#fff;
+    box-shadow:inset 0px 0px 15px 3px #D8B381;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton a {
+    text-decoration: none;
+    font-size:20px;
+    color:#fff
+}
+
+.card .myButton span{
+    color:#FF5722
+}
+.card i{
+    color:#008080
+}
+
+/* end card */
+
+/*start media section */
+
+@media(max-width:1200px){
+
+    .slider .slider-info .link{
+        font-size:20px;
+        font-family: Source Sans Pro ExtraLight;
+        font-size: 20px;
+        font-family: Source Sans Pro ExtraLight;
+        background-color: #00808080;
+        border: none;
+        padding: 12px;
+        margin-left: 40px;
+        border-radius: 12px;
+        text-decoration:none
+    }
+    .slider .slider-info .link1{
+        font-size: 20px;
+        font-family: Source Sans Pro ExtraLight;
+        background-color: #00808080;
+        border: none;
+        padding: 12px;
+        margin-left: 10px;
+        border-radius: 12px;
+        text-decoration:none
+    }
+    .card h3{
+        text-align: center;
+        margin-top:15px;
+        margin-bottom:15px;
+        color:#FF5722;
+    }
+    .h2 {
+        text-align: center;
+    }
+    .card i{
+        color:#008080
+    }
+
+    .myButton {
+        width:70%;
+    }
+}
+
+@media(max-width:767px){
+    .card{
+        width:40%;
+        display:inline-block;
+        text-align:center;
+        margin-right:4%;
+        margin-left:4%;
+        text-align: center;
+    }
+    .myButton {
+        width:70%;
+    }
+    figure{
+        height:auto;
+        box-shadow:none;
+        padding-left:0
+    }
+    figcaption{
+        display:block;
+        box-shadow:0 0 20px 5px rgba(0,0,0,.4);
+        border-radius:5px;
+        padding:15px 10px
+    }
+    .my-pic{
+        position:static;
+        display:block;
+        margin:auto
+    }
+    .my-name{
+        font-size:27px;
+        margin:0 0 5px
+    }
+
+    .profile-content{
+        display:flex;
+        height:600px;
+        align-items:center;
+        justify-content:center;
+        padding:0 25px
+    }
+}
+/*end media section */
