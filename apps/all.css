@@ -1,0 +1,111 @@
+body{
+    color:#fff;
+    background-color:#191919;
+    margin:0 auto 30px;
+    padding:0;
+    width:80%
+}
+.up{
+    display:inline-block;
+    width:100%;
+}
+.button{
+    display:inline-block;
+    width:100%;
+    margin:32px 0 16px 0
+}
+.h3{
+    text-align:center
+}
+
+i{
+    color:#008080
+}
+
+.myButton{
+    box-shadow: 2px 2px 0px 0px #FF5722;
+    background: linear-gradient(to bottom, #008080 5%, #008080 100%);
+    background-color: #008080;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 18px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #008080;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+a{
+    text-decoration:none;
+    color:#fff
+}
+a:hover{
+    text-decoration:none;
+    color:#fff
+}
+h2{
+    margin:20px 0 20px 0;
+}
+.body-content{
+    max-width:100%;
+    display: inline-block;
+}
+
+.body-content img{
+    display: inline-block;
+    max-width: 23%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.body-content img:hover{
+transform: scale(1.2);
+-webkit-transition: all ease-in-out .5s;
+-moz-transition: all ease-in-out .5s;
+-o-transition: all ease-in-out .5s;
+transition: all ease-in-out .5s;
+}
+
+.app-desc h2{
+    font-size:20px;
+    
+}
+
+.app-desc p{
+    text-indent:50px;
+    font-size:20px;
+    margin-left: 42px;
+    margin-right:45px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.app-desc .buttons{
+    display: inline-flex;
+}
+
+@media(max-width:991px){
+    
+    .body-content img{
+        display: inline-block;
+        max-width:26%;
+        margin-left:13%;
+    }
+    .app-desc .buttons{
+        display: inline-block;
+    }
+}
+@media(max-width:767px){
+    
+    .body-content img{
+        display: inline-block;
+        max-width:55%;
+        margin-left:22%;
+    }
+    .app-desc h3{
+        text-align: center;
+    }
+}
