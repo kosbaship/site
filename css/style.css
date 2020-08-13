@@ -1,4 +1,11 @@
-*{font-family:montserrat,sans-serif}
+@font-face{
+    font-family:JF Flat Regular;
+    src: url(../fonts/JF-Flat-Regular.ttf);
+}
+@font-face{
+    font-family:Lemonada Bold;
+    src: url(../fonts/Lemonada-VariableFont_wght.ttf);
+}
 /* start framework */
 .second-color{color:#FF5722;}
 .icon-color{color:#191919;}
@@ -140,6 +147,7 @@ figcaption h4 span{
     margin-top:15px;
     margin-bottom:15px;
     color:#FF5722;
+    font-size:18px;
 }
 
 .card .card-header span{
@@ -198,7 +206,7 @@ figcaption h4 span{
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding: 13px 18px;
     text-decoration: none;
@@ -299,7 +307,7 @@ figcaption h4 span{
         cursor: pointer;
         color: #ffffff;
         font-family: Arial;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         padding: 13px 18px;
         text-decoration: none;
@@ -319,7 +327,7 @@ figcaption h4 span{
         cursor: pointer;
         color: #ffffff;
         font-family: Arial;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         padding: 13px 18px;
         text-decoration: none;
